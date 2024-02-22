@@ -1,0 +1,152 @@
+Body {
+    margin: 0;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+ }
+      
+
+ div {
+    display: block;
+ }
+
+
+.top-container {
+    background-color:#dbdacc ;
+    position: relative ; 
+    padding-top: 50px;
+    
+}
+
+
+h1 {
+
+    color: rgba(80,78,43,.9);
+    font-size: 5rem;
+    font-family: "Lobster", sans-serif;
+
+}
+
+h2 {
+    color: rgba(80,78,43,.9);
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.big-cloud {
+    position: relative;
+    right: 250px;
+    
+}
+
+.small-cloud {
+    position: relative;
+    left: 300px;
+}
+    
+.photo1 {
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+.middle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.profile {
+    text-align: center; /* Pour centrer horizontalement */
+    max-width: 400px; /* Optionnel : pour limiter la largeur du texte */
+}
+
+.intro {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    margin: auto;
+    line-height: 1.5;
+}
+
+.middle-container2 {
+    background-color: #dbdacc;
+   padding-top: 40px;
+   padding-bottom: 100px;
+}
+
+.subtitle {
+    padding-top: 50px;
+    font-size: 2.5rem;
+}
+
+/* Définit le sélecteur pour cibler l'élément avec la classe "parent" */
+.parent {
+    /* Utilise un affichage en grille pour l'agencement des éléments enfants */
+    display: grid;
+    /* Définit deux colonnes dans la grille, chacune occupant la même fraction de l'espace disponible */
+    grid-template-columns: 0.5fr 1fr;
+    /* Définit deux lignes dans la grille, chacune occupant la même fraction de l'espace disponible */
+    grid-template-rows: 1fr 1fr;
+    /* Définit la largeur de l'élément "parent" à 50% de la largeur de son conteneur parent */
+    width: 50%;
+    /* Définit les marges de l'élément "parent" :
+        - margin-top: 100px
+        - margin-right: auto (centre horizontalement)
+        - margin-bottom: 0
+        - margin-left: auto (centre horizontalement) */
+    margin: 100px auto 0 auto;
+    /* Aligne le texte à gauche à l'intérieur de l'élément "parent" */
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.middle-container3 {
+   margin-top: 50px;
+   margin-bottom: 60px;
+}
+
+.message {
+    margin: 40px auto 60px;
+    
+}
+
+.button {
+    background-color: rgba(80,78,43,.9); /* Couleur de fond */
+    border-radius: 10px; /* Rayon de la bordure */
+    padding: 10px 30px; /* Ajoutez de l'espace autour du texte du bouton */
+    width: 200px; /* Largeur du bouton */
+    color: white; /* Couleur du texte */
+    font-size: 16px; /* Taille de la police */
+    border: none; /* Supprime la bordure */
+    cursor: pointer; /* Change le curseur lorsqu'on survole le bouton */
+    transition: background-color 0.3s; /* Effet de transition pour la couleur de fond */
+}
+
+/* Style lorsque le bouton est survolé */
+.button:hover {
+    background-color: #a1dfa4; /* Nouvelle couleur de fond au survol */
+}
+
+/* Style lorsque le bouton est cliqué */
+.button:active {
+    background-color: #7db37f; /* Nouvelle couleur de fond lorsque le bouton est cliqué */
+}
+
+.bottom-container {
+    background-color: rgba(87, 86, 67, 0.9);
+    padding-top: 50px
+}
+
+.footer-link {
+    color: white;
+    margin: 50px
+}
+
+.copyright {
+    color: white;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
